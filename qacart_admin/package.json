@@ -1,0 +1,42 @@
+{
+    "name": "qacartadmin",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "~1.4.0",
+        "@material-ui/icons": "~1.1.0",
+        "bit-bin": "^13.0.4",
+        "data-generator": "^1.0.0",
+        "fakerest": "~2.1.0",
+        "fetch-mock": "~6.3.0",
+        "global": "^4.3.2",
+        "json-graphql-server": "~2.1.1",
+        "posix": "^4.1.2",
+        "prop-types": "^15.6.2",
+        "ra-data-fakerest": "^2.0.0",
+        "ra-data-graphql-simple": "^2.0.0",
+        "ra-data-json-server": "^2.2.0",
+        "ra-data-simple-rest": "~2.0.0",
+        "ra-input-rich-text": "^2.0.0",
+        "ra-language-english": "^2.0.0",
+        "ra-language-french": "^2.0.0",
+        "react": "~16.3.1",
+        "react-admin": "^2.0.0",
+        "react-dom": "~16.3.1",
+        "react-redux": "~5.0.7",
+        "react-router-dom": "~4.2.2",
+        "react-scripts": "1.1.4",
+        "recompose": "~0.26.0",
+        "redux-form": "~7.4.0",
+        "redux-saga": "~0.16.0"
+    },
+    "devDependencies": {
+        "vue": "^2.5.17", 
+        "vue-template-compiler": "^2.5.17" 
+    },  
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "eject": "react-scripts eject"
+    }
+}

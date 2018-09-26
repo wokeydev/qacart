@@ -1,0 +1,72 @@
+.office-div {
+  background-color: rgb(15, 70, 107);
+  height: 45vh;
+  -webkit-box-shadow: inset 0 5px 9px 0 #000;
+  -moz-box-shadow: inset 0 5px 9px 0 #000;
+  box-shadow: inset 0 5px 9px 0 #000;
+}
+@media screen and (max-width: 1366px) {
+  .office-div {
+    height: 35vh;
+  }
+}
+@media screen and (max-width: 800px) {
+  @media screen and (max-height: 1280px) {
+    .office-div {
+      height: 50vh;
+    }
+    
+  }
+
+  .office-div.row {
+    height: 300px;
+}
+body .services .btn-scroll {
+    bottom: 100px;
+    right: 16px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .office-div {
+    height: 45vh;
+  }
+}
+.office-div .office-title {
+  width: 100%;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: white;
+  margin-left: 5.83vw;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 320px) {
+  .office-div .office-title {
+    padding-top: 5px;
+  }
+}
+
+.office-div .office-map {
+  position: relative;
+  padding-top: 50px;
+}
+@media screen and (max-width: 1024px) {
+  @media screen and (max-height: 600px) {
+    .office-div .office-map {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .office-div .office-map {
+    padding-top: 0px;
+  }
+}
+
+.office-div .office-map img {
+  width: 100%;
+  height: 100%;
+}

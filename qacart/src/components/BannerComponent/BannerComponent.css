@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+
+@media   (min-width: 1278px)  {
+
+body .banner {
+    height: 160px;
+    padding-top: 25px; 
+}
+
+  body  .banner .description {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+body .banner .title { 
+    margin-bottom: 0; 
+    font-size: 30px;
+}
+
+}
+
+.banner {
+    height: 20.77777vh;
+    background-color: rgb(41, 171, 226);
+    box-shadow: inset 0px -2px 5px rgb(48, 47, 45);
+    text-align: center;
+    padding-top: 4vh;
+}
+@media screen and (max-width: 320px) {
+    @media screen and (max-height: 568px) {
+        .banner {
+            height: 15vh;
+            padding-top: 4vh;
+        }
+    }
+}
+.banner .title {
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    color: white;
+}
+
+.banner .description {
+    font-family: 'Lora', serif;
+    font-size: 1.3em;
+    color: white;
+}
+@media screen and (max-width: 1200px) {
+    .banner .title {
+        margin-bottom: 3px;     
+    }
+    .banner .description {
+        margin-bottom: 3px;
+    }
+
+    div#banner-div {
+    padding-bottom: 14px;
+    height: auto;
+    padding-top: 6px;
+}
+
+     body  .carousel-section .carousel img, body .carousel-section .carousel {
+ 
+}
+
+
+}
+@media screen and (max-width: 1024px) {
+
+ 
+    @media screen and (max-height: 600px) {
+        .banner .title {
+            font-size: 1.6em;
+        }
+
+        .banner .description {
+            font-size: 1em;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+ 
+
+ 
+
+.btn-scroll a span {
+    width: 11px;
+    height: 11px;
+}
+
+
+
+
+
+
+
+    .banner .title {
+        font-size: 1.6em;
+    }
+    .banner .description {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .banner {
+        padding-top: 1vh;
+    }
+    .banner .title {
+        font-size: 1.3em;
+    }
+    .banner .description {
+        font-size: 0.8em;
+    }
+}
+
+
+@media screen and (max-width: 384px) {
+    .banner {
+        padding-top: 3vh;
+    }
+    .banner .title {
+        font-size: 1em;
+    }
+    .banner .description {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner {
+        padding-top: 3vh;
+        font-size: 0.8em;
+    }
+    .banner .description {
+        line-break: 0.3em;
+    }
+}

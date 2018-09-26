@@ -1,0 +1,135 @@
+.header-div {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+nav {
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px black;
+    top: 0px;
+    position: absolute;
+}
+.navbar-brand {
+    padding-left: 10.0vw;
+}
+@media screen and (max-width: 1024px) {
+    .navbar-brand {
+        padding-left: 2.3vw;
+    }
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 312px ) {
+    .navbar-brand {
+        padding-left: 0px;
+    }
+
+}
+.logoImage {
+    width: 267px;
+    /* height: 60px; */
+}
+
+@media screen and (max-width: 1268px) {
+    .logoImage {
+        width: 157px;
+        /* height: 60px; */
+    }
+}
+.collapse.navbar-collapse {
+    margin-right: 7.6vw;
+}
+.navbar-collapse ul {
+    border-bottom: solid 1px;
+}
+
+.navbar-collapse ul li {
+    margin-right: 3.47916vw;
+}
+
+@media screen and (max-width: 990px) {
+    .navbar-collapse ul li {margin-right: 0px;}
+}
+
+.nav-link {
+    color: rgba(51, 51, 51, 0.98)!important;
+}
+
+.navbar-collapse ul>:last-child {
+    margin-right: 0px!important;
+}
+
+.contactus {
+    margin-left: 5.6vw;
+    transition: all .2s ease-in-out; 
+}
+
+@media screen and (max-width: 1024px) {
+    .contactus {
+        width: 12%;
+        margin-left: 3vw;
+        transition: all .2s ease-in-out; 
+    }
+
+}
+
+.contactus:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.contactus img {
+    position: relative;
+}
+
+.contactus div {
+    position: absolute;
+    margin-left: 56px;
+    margin-top: 12px;
+    height: 38px;
+    width: 112px;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    background-color: rgb(45, 45, 54);
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.contactus div a {
+    color: white;
+}
+
+
+
+/* Contact Us Modal Style */
+
+@media screen and (max-width: 491px) {
+
+    .modal-dialog.cascading-modal .modal-body, .modal-dialog.cascading-modal .modal-footer {
+        padding-left: 0!important;
+    }
+    
+    .modal-body {
+        padding: 0!important;
+    }
+
+    .md-form {
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+    }
+    .md-form.form-sm .validate {
+        margin-bottom: 1em!important;
+    }
+
+    .modal-dialog.cascading-modal {
+        margin-top: 13%!important;
+    }
+
+}

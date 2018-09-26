@@ -1,0 +1,471 @@
+.service-icon {
+    position: absolute;
+    background-image: url('/image/service-icon-bk.png');
+    background-repeat: no-repeat;
+    width: 11.3808vw;
+    height: 11.3808vw;
+    box-shadow: 0px 4px 16px 1px black;;
+    border-radius: 50% 50%;
+}
+
+@media screen and (max-width: 1440px) {
+    .service-icon{
+        width: 13.6vw;
+        height: 13.6vw;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    /* start of large tablet styles */
+    @media screen and (max-height: 1024px) {
+        .service-icon{
+            width: 15.3808vw;
+            height: 15.3808vw;
+        }
+    }
+    @media screen and (max-height: 768px) {
+        .service-icon{
+            width: 11.3808vw;
+            height: 11.3808vw;
+        }
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    /* start of large tablet styles */
+    .service-icon{
+        width: 11.3808vw;
+        height: 11.3808vw;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    .service-icon{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    .service-icon{
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .service-icon{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .service-icon{
+        margin-left: -0.6em;
+        width: 110px;
+        height: 110px;
+    }
+}
+@media screen and (max-width: 384px) {
+    .service-icon{
+        margin-left: -1.1em;
+        width: 110px;
+        height: 110px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .service-icon{
+        margin-top: -0.4em;
+        margin-left: -0.8em;
+        width: 100px;
+        height: 100px;
+    }
+
+    @media screen and (max-height: 480px) {
+        .service-icon{
+            margin-top: -0.4em;
+            margin-left: 0em;
+            width: 80px;
+            height: 80px;
+        }
+    
+        
+    }
+}
+
+
+.show-more {
+    position: absolute;
+    display: block;
+    z-index: 999;
+    width: 100%;
+    top: 0%;
+    height: 100%;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 50%;
+    transition: all .2s ease-in-out;
+}
+
+.show-more:hover {
+    cursor: pointer;
+    background-color: #0000005c;
+}
+
+
+.show-more a {
+    display: none;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.show-more:hover a {
+    display: block;
+}
+.show-more a:hover {
+    color: white;
+    font-size: 1.2em;
+}
+@media screen and (max-width: 320px) {
+    .show-more a {
+        display: none;
+    }
+    .show-more:hover a {
+        display: none;
+    }
+}
+.service-icon .bk-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.service-icon .icon-img-div {
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 50%;
+    height: 50%;
+}
+.service-icon .icon-img-div img {
+    width: auto;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.service-name {
+    display: block;
+    position: relative;
+    top: 8%;
+    text-align: center;
+}
+
+.service-name span {
+    padding-left: 0.2em;
+}
+@media screen and (max-width: 1600px) {
+    .service-name span, .service-name b {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 800px) {
+    .service-name span, .service-name b {
+        font-size: 1.6em;
+    }
+}
+@media screen and (max-width: 768px) {
+    .service-name span, .service-name b {
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 320px) {
+    .service-name span, .service-name b {
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .service-icon {
+        margin-bottom: 0.3em;
+    }
+    .service-name{
+        padding-top: 2.3em;
+    }
+}
+@media screen and (max-width: 800px) {
+    .service-icon {
+        margin-bottom: 0.6em;
+    }
+    .service-name{
+        padding-top: 4em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-icon {
+        margin-bottom: 0.3em;
+    }
+    .service-name{
+        padding-top: 4em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .service-icon {
+        margin-bottom: 0.05em;
+    }
+    .service-name{
+        padding-top: 3.2em;
+    }
+}
+@media screen and (max-width: 384px) {
+    .service-name {
+        padding-top: 2.2em;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .service-icon {
+        margin-bottom: 0.07em;
+    }
+    .service-name{
+        padding-top: 2.6em;
+    }
+    @media screen and (max-height: 480px) {
+        .service-icon {
+            margin-top: 0.14em;
+            margin-bottom: 0.3em;
+        }
+        .service-name{
+            padding-top: 1.6em;
+        }
+    }
+}
+
+.services {
+    position: relative;
+    background-image: url('/image/servicesbk.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    min-height: 79vh;
+    -webkit-box-shadow: inset 0px -4px 20px 0px black;
+    -moz-box-shadow: inset 0px -4px 20px 0px black;
+    box-shadow: inset 0px -4px 20px 0px black;
+}
+
+body .banner { 
+    background-color: rgb(1, 65, 135);
+}
+
+@media screen and (max-width: 320px) {
+    @media screen and (max-height: 568px) {
+        .services {
+            min-height: 85vh;
+        }
+    }
+}
+.services .btn-scroll {
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+}
+
+.services .btn-scroll span {
+    border-color: black;
+}
+
+@media screen and (max-height: 800px) {
+
+body .services { 
+    padding-bottom: 68px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .services .btn-scroll {
+        bottom: 100px;
+        right: 80px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .services .btn-scroll {
+        right: 194px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .services .btn-scroll {
+        right: 170px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .services .btn-scroll {
+        right: 154px;
+    }
+}
+
+@media screen and  (max-width: 320px) {
+    .services .btn-scroll {
+        bottom: 75px;
+        right: 145px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:1400px) {
+
+.App {
+    overflow: hidden;
+} 
+
+}
+@media screen and (max-width:1267px) {
+
+ body .services .btn-scroll, body .clients-div .btn-scroll {
+    bottom: 55px !important;
+    right: 16px;
+    left: 0;
+}
+
+.service-name { 
+    top: 0px;}
+
+body .service-icon .icon-img-div {
+    margin-left: 0;
+    margin-top: 16%;
+    width: 100%;
+    height: 46px;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.experience-div { 
+    display: flex;
+    height: auto;}
+
+body .service-icon .icon-img-div img { 
+    display: inline-block;
+}
+
+body span.service-name {
+    margin-top: 0;
+    padding-bottom: 20px !important;
+    padding-top: 0;
+}
+
+.service-icon { 
+    height: 128px;
+}
+
+body .service-icon {
+    margin-bottom: 0.05em;
+    background: none;
+    box-shadow: none;
+}
+
+body .service-icon .bk-img {
+    width: 111px;
+    height: 111px;
+    position: absolute;
+    -webkit-box-shadow: 0px 0px 15px #000;
+    box-shadow: 0px 0px 15px #000;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.services {
+    padding: 48px;
+    min-height: auto;
+    overflow: hidden;
+}
+
+body .service-icon {
+    height: 174px;
+    position: relative !important;
+    float: left;
+    max-width: 176px;
+    text-align: center;
+    left: 0 !important;
+    top: 0 !important;
+    margin: 15px;
+    width: 100%;
+}
+
+
+body .show-more {
+    position: absolute;
+    display: block;
+    z-index: 999;
+    width: 113px;
+    /* top: 0%; */
+    height: 113px;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    left: 0;
+    right: 0;
+    margin: 0 auto !important;
+    display: block;
+    top: 0;
+}
+
+
+
+}
+
+
+@media screen and (max-width:992px) {
+body span.service-name { 
+    padding-bottom: 20px !important; 
+}
+
+
+}
+
+
+@media screen and (max-width:728px) {
+
+body .service-icon { 
+    max-width: 26%;}
+    }
+
+@media screen and (max-width:728px) {
+.services {
+    padding: 22px 5px;}
+
+   
+
+}
+
+
+@media screen and (max-width:500px) {
+ body .service-icon .icon-img-div {
+    margin-left: 0;
+    margin-top: 18%;}
+
+    body .service-icon { 
+    max-width: 40%;}
+   
+
+
+    }

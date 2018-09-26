@@ -1,0 +1,32 @@
+.carousel {
+    position: absolute;
+    top: 0px;
+}
+
+
+.carousel img {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (max-width: 786px) {
+    .carousel-section .carousel {
+        margin-top: 64.53px;
+        height: 94vh;
+    }
+    .carousel-section .carousel img {
+        width: 100vw;
+        height: 94vh;
+    }
+
+}
+
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
+    width: 90px!important;
+    height: 90px!important;
+}
+
+
+
+
+

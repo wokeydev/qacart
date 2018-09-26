@@ -1,0 +1,126 @@
+.experience-div {
+    display: flex;
+    height: 24vh;
+    /* The background image */
+    background-image: url("/image/experience-bk.jpg");
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+@media screen and (max-width: 600px) {
+    .experience-div {
+        height: 30vh;
+    }
+}
+.experience-div .row {
+    margin-left: 0px!important;
+}
+.dotted {
+    margin-right: 0px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 2em 1.6875em;
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    -webkit-background-size: 3px 3px;
+    -moz-background-size: 3px 3px;
+    background-size: 3px 3px;
+}
+
+.dotted .num {
+    color: #30eff1;
+    font-size: 6em;
+    line-height: 1.2em;
+}
+.dotted .experience-txt {
+    font-size: 2.1em;
+}
+
+
+@media screen and (max-width: 1680px) {
+    .dotted .num {
+        font-size: 4.8em;
+    }
+    .dotted .experience-txt {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 1277px) {
+.experience-div { 
+    display: flex;
+    height: auto;}
+
+}
+@media screen and (max-width: 1440px) {
+    .dotted {
+        padding-top: 1.8em;
+    }
+    .dotted .num {
+        font-size: 4.6em;
+        line-height: 1.1em;
+    }
+    .dotted .experience-txt {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .dotted {
+        padding-top: 2em;
+    }
+    .dotted .num {
+        font-size: 4em;
+    }
+    .dotted .experience-txt {
+        font-size: 1.3em;
+        line-height: 1.0em;
+    }
+    @media screen and (max-height: 600px) {
+        .dotted {
+            padding-top: 1.2em;
+        }
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .dotted {
+        padding: 12px 4px;
+    }
+
+    .dotted .num {
+        font-size: 3em;
+    }
+    .dotted .experience-txt {
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 384px) {
+    .dotted .num {
+        font-size: 2.4em;
+    }
+    .dotted .experience-txt {
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 384px) {
+    .dotted .experience-txt {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .dotted .experience-txt {
+        font-size: 0.65em;
+    }
+}
+

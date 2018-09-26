@@ -1,0 +1,173 @@
+.clients-div {
+    position: relative;
+    background-color: rgb(230, 230, 230);
+    height: 76vh;
+    /* box-shadow: 0 10px 7px 16px #000000; */
+}
+@media screen and (max-width: 600px) {
+    .clients-div {
+        height: 70vh;
+    }
+}
+.clients-title {
+    padding-top: 10vh;
+    padding-bottom: 15.3703vh; 
+    /* padding-bottom: 20.3703vh;  */
+    text-align: center;
+    color: rgb(1, 54, 84);
+}
+
+@media screen and (max-width: 1024px) {
+.container-fluid.clients-div {
+    height: auto;
+}
+
+.clients-title {
+    padding-top: 50px;
+    padding-bottom: 50px;}
+
+}
+@media screen and (max-width: 1024px) {
+
+
+    @media screen and (max-height: 800px) {
+        .clients-title {
+            padding-top: 5vh;
+            padding-bottom: 8.33vh; 
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .clients-title {
+        padding-bottom: 0.5vw;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .clients-title h1{
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 320px) {
+    .clients-title h1{
+        font-size: 1.5em;
+        padding-bottom: 0;
+    }
+
+   body .clients-div .btn-scroll {
+    bottom: 100px;
+    right: 12px;
+}
+
+}
+.row .col { 
+    text-align: center;
+}
+
+.icon-row {
+    margin-left: 20px!important;
+    margin-right: 20px!important;
+}
+
+.icon-row .icon img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .icon-row .icon {
+        text-align: center;
+        height: 150px;
+    }
+    
+    .icon-row .icon:last-child {
+        border:none;
+    }
+    
+    .icon-row .icon img {
+        position: relative;
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+.clients-div .carousel .carousel-inner {
+    height: 190px!important;
+}
+.clients-div .carousel .carousel-inner .carousel-item {
+    height: 100%;
+    text-align: center;
+}
+.clients-div .carousel .carousel-inner .carousel-item img {
+    width: auto;
+    height: 100%;
+}
+@media screen and (max-width: 768px) {
+
+    .col-md-3.col-xs-5.icon {
+    width: 25%;
+}
+
+.icon-row .icon img {
+    position: static;}
+
+
+    .client-icons {
+    /* height: 300px; */
+    overflow: hidden;
+    padding-bottom: 55px;
+}
+
+.row.icon-row.first {
+    padding-bottom: 0px !important;
+}
+
+
+.col-md-3.col-xs-5.icon:last-child{ border: none; }
+
+    .clients-div .carousel {
+        margin-top: 12vh;
+    }
+}
+@media screen and (max-width: 414px) {
+    .clients-div .carousel {
+        margin-top: 4vh;
+    }
+}
+@media screen and (max-width: 320px) {
+    .clients-div .carousel {
+        margin-top: 2vh;
+    }
+}
+
+.clients-div .btn-scroll {
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+}
+@media screen and (max-width: 1366px) {
+    .clients-div .btn-scroll {
+        bottom: 100px;
+        right: 80px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .clients-div .btn-scroll {
+        bottom: 100px;
+        right: 60px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .clients-div .btn-scroll {
+        right: 44vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .clients-div .btn-scroll {
+        bottom: 60px;
+    }
+}

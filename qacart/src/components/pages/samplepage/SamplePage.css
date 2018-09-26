@@ -1,0 +1,9 @@
+.samplepage-image {
+    width: 100%;
+    height: 100%;
+}
+.samplepage-div p {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+}
